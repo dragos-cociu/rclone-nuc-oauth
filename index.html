@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Information about rclone-nuc, a personal Google Drive backup integration using rclone.">
+  <title>rclone-nuc — Personal Google Drive Backup</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f6f8fb; color: #182334; font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 780px; margin: 8vh auto; padding: 0 24px; }
+    .card { background: white; padding: clamp(28px, 5vw, 52px); border-radius: 16px; border: 1px solid #e0e5ed; box-shadow: 0 8px 28px rgba(26, 40, 66, .05); }
+    .eyebrow { color: #375a98; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; }
+    h1 { font-size: clamp(30px, 5vw, 42px); line-height: 1.2; margin: 10px 0 24px; }
+    h2 { font-size: 19px; margin-top: 28px; }
+    p { margin: 0 0 16px; }
+    a { color: #2452a1; text-underline-offset: 3px; }
+    footer { margin: 25px 0 0; color: #566172; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <div class="eyebrow">Personal-use OAuth integration</div>
+      <h1>rclone-nuc</h1>
+      <p><strong>rclone-nuc</strong> is a personal, non-commercial integration that uses <a href="https://rclone.org/">rclone</a> and the Google Drive API to back up and restore files from a self-managed computer.</p>
+      <h2>Purpose</h2>
+      <p>The application is intended for the owner's own Google account. It authorizes rclone to transfer backup files to Google Drive and, when needed, retrieve or manage those files.</p>
+      <h2>How it works</h2>
+      <p>Google OAuth 2.0 is used to obtain authorization from the account owner. File transfers are performed by rclone on the owner's machine. This website is informational only: it has no sign-in form and does not receive Google Drive files or OAuth tokens.</p>
+      <h2>Privacy</h2>
+      <p>For details about data access and handling, read the <a href="privacy.html">Privacy Policy</a>.</p>
+      <h2>Contact</h2>
+      <p>For questions about this personal integration, contact the maintainer via <a href="https://github.com/dragos-cociu/rclone-nuc-oauth/issues">GitHub Issues</a>.</p>
+    </article>
+    <footer>rclone-nuc · Personal backup integration · Not affiliated with Google or the rclone project.</footer>
+  </main>
+</body>
+</html>
